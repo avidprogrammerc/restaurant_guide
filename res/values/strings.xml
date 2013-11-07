@@ -4,5 +4,6 @@
     <string name="app_name">Restaurant Guide</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="hint">Search for a location</string>
 
 </resources>
