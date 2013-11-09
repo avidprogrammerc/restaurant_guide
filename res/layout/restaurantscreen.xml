@@ -25,7 +25,7 @@
         android:layout_alignBaseline="@+id/next"
         android:layout_alignBottom="@+id/next"
         android:layout_alignParentLeft="true"
-        android:text="&lt;&lt; Prev" />
+        android:text="@string/previous" />
 
     <Button
         android:id="@+id/viewMap"
@@ -34,7 +34,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="View in Google Maps" />
+        android:text="@string/maps" />
 
     <TextView
         android:id="@+id/numRatings"
@@ -44,7 +44,7 @@
         android:layout_alignLeft="@+id/next"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="16dp"
-        android:text="# ratings"
+        android:text="@string/ratings"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textStyle="bold" />
 
@@ -55,7 +55,7 @@
         android:layout_alignTop="@+id/imageView"
         android:layout_marginLeft="12dp"
         android:layout_toRightOf="@+id/imageView"
-        android:text="Restaurant Name"
+        android:text="@string/name"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold" />
 
@@ -67,6 +67,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="12dp"
         android:clickable="true"
+        android:contentDescription="@string/imageView_description"
         android:src="@drawable/no_photo" />
 
     <RatingBar
@@ -88,6 +89,6 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/searchField"
         android:layout_marginTop="8dp"
-        android:text="Next >>" />
+        android:text="@string/next" />
 
 </RelativeLayout>
